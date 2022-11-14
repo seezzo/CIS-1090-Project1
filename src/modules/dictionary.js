@@ -1,3 +1,13 @@
+/**
+ * This dictionary module loads a words list and exports
+ * a single funtion to check if a given word is in that list.
+ * 
+ * That function returns true if the word is in the dictionary
+ * and false if it does not.
+ * 
+ * The search is CASE SENSITIVE
+ */
+
 import words from "./words.js";
 
 function binarySearch(needle, haystack){

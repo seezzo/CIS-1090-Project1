@@ -1,3 +1,14 @@
+/**
+ * This module defines an editable text area as a content editable div.
+ * 
+ * Note for class: There is some tricky stuff in here I do not expect
+ * you to understand off the tops of your heads.
+ * 
+ * @param userText  A content editable div element to use as the editor
+ * @param respell   A function called with a line of text from the editor
+ *                  which shall return a replacement for that line of text
+ *                  that contains html.
+ */
 export default function setupEditor(userText, respell) {
 
     let observer = new MutationObserver(function (ms) {

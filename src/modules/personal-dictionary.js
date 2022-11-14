@@ -1,3 +1,12 @@
+/**
+ * This module defines a personal dictionary. It exports
+ * a search function, and an addWord function that may be
+ * used to add a word.
+ * 
+ * It is initially empty.
+ * Search is case sensitive.
+ */
+
 //An array of words, initially empty
 let words = [];
 

@@ -1,3 +1,4 @@
+//Just a big list of words, in sorted order.
 export default [
     "A",
     "A's",
