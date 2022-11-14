@@ -34,7 +34,7 @@ describe("SpellCheck tests", function () {
     });
 
     describe("Spell Check add words Tests", function () {
-        it("Adding the word samsquanch", function () {
+        it("Finds the word samsquanch after adding it", function () {
             assert.ok(!isSpelledRight("samsquanch")); //Does not find the word
             addWord("samsquanch");
             assert.ok(isSpelledRight("samsquanch")); //Does find the word
