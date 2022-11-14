@@ -1,11 +1,11 @@
 body {
   padding: 20px 100px 50px 100px;
   background-color: #00573B;
+  color: white;
 }
 
 h1 {
   font-family: 'Clarendon', serif;
-  color: white;
   border-bottom: solid white 1px;
   max-width: 810px;
   font-weight: 100;
@@ -16,6 +16,8 @@ h1 {
   min-height: 400px;
   max-width: 800px;
   padding: 5px;
+  margin-bottom: 10px;
+  color: black;
   background-color: white;
 }
 
