@@ -34,7 +34,11 @@ describe("SpellCheck tests", function () {
     });
 
     describe("Spell Check add words Tests", function () {
-        //TODO
+        it("Adding the word samsquanch", function () {
+            assert.ok(!isSpelledRight("samsquanch")); //Does not find the word
+            addWord("samsquanch");
+            assert.ok(isSpelledRight("samsquanch")); //Does find the word
+        });
     });
 
 });
