@@ -12,11 +12,15 @@ import {search as checkPersonalDictionary, addWord} from "./personal-dictionary.
 //  Example:
 //      "Hello, friend!" -> ["Hello", ", ", "friend", "!"]
 function splitIntoWords(text){
+    //Split at word boundaries
+    //https://www.regular-expressions.info/wordboundaries.html
     return text.split(/\b/);
 }
 
 //This function returns true if the given string is a word.
 function isWord(aString){
+    //Does it contain any word characters?
+    //https://www.regular-expressions.info/shorthand.html
     return aString.match(/\w/) != null;
 }
 
