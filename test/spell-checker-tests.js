@@ -42,11 +42,13 @@ describe("SpellCheck tests", function () {
     });
 
     describe("Added to Personal Dictionary Tests", function () {
-        it("Adds word 'Sarah' to Personal Dictionary", function () {
-            assert.ok(!isSpelledRight("Sarah"));
-            addWord("Sarah");
-            assert.ok(isSpelledRight("Sarah"));
+        it("Adds word 'sarah' to Personal Dictionary", function () {
+            assert.ok(!isSpelledRight("sarah"));
+            addWord("sarah");
+            assert.ok(isSpelledRight("sarah"));
         });
     });
+
+    describe()
 
 });

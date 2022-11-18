@@ -33,6 +33,10 @@ function isSpelledRight(word){
         return true;
     else if ( checkPersonalDictionary(word.toLowerCase()) )
         return true;
+    else if ( checkDictionary(word) )
+        return true;
+    else if ( checkPersonalDictionary(word) )
+        return true;
     else
         return false;
 }
